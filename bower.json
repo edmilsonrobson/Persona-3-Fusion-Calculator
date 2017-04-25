@@ -1,0 +1,24 @@
+{
+  "name": "Persona 3 Fusion Calculator",
+  "authors": [
+    "Edmilson <edmilsonrobson@gmail.com>"
+  ],
+  "description": "A persona compendium/fusion calculator for Persona 3",
+  "main": "index.html",
+  "keywords": [
+    "persona",
+    "persona3",
+    "fusion",
+    "calculator",
+    "compendium"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
