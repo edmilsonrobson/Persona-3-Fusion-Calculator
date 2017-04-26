@@ -14,12 +14,9 @@ body{
 
 }
 
-
-
 .light{
     background-color: #8AC8FF
 }
-
 
 .square{
     margin: 0 auto;
@@ -30,7 +27,57 @@ body{
 }
 
 .weakness-list{
-    
+
     display: table-cell;
     vertical-align: middle;
+}
+
+#p3fc-header h1{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+#persona-list{
+    margin-top: 5%;
+    /*    background: steelblue;*/
+    width: 50%;
+    min-height: 600px;
+}
+
+a, a:hover, a:focus{
+    color: inherit;
+    text-decoration: none;
+}
+
+.persona-name-list{
+    font-size: 1.5em;
+}
+.p3-box{
+    color: #21539A;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #93C4FB;
+    text-align: right;
+    padding-right: 15px;
+    min-width: 25%;
+    height: 30px;
+    transition: 0.1s;
+}
+
+.info-box-container{
+    display:block;
+    width: 80%;
+    margin: 10px 0;
+}
+.info-box-container:hover .p3-box{
+    background-color: #F7CD7D;
+    min-width: 27%;
+    transition: 0.1s;
+}
+
+.p3-box span{
+    height: 100%;
+    font-size: 1.5em;
 }
